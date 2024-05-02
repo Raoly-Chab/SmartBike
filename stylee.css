@@ -1,0 +1,22 @@
+.container {
+    position: relative; 
+    display: inline-block; 
+}
+
+.text-overlay {
+    position: absolute;  
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay h1 {
+    color: black; /* Couleur du texte */
+    font-size: 24px;  
+    font-weight: bold; 
+    text-align: center;
+    margin: 0;
+}
